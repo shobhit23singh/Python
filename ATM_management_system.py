@@ -60,7 +60,7 @@ class Atm:
             amount = int(input('Enter the amount: '))
             if amount <= self.balance:
                 self.balance -= amount
-                print('Withdrawal successful. Balance is', self.balance)
+                print('Withdrawal successfull . Balance is', self.balance)
             else:
                 print('Insufficient balance.')
         else:
